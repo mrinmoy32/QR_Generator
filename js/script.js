@@ -12,7 +12,7 @@ const onGenerateSubmit = (e) => {
 
   // Validate url
   if (url === '') {
-    alert('Please enter a URL');
+    alert('Please enter a Text/URL');
   } else {
     showSpinner();
     // Show spinner for 1 sec
